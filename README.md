@@ -19,6 +19,17 @@ To install Kubernetes on your Ubuntu machine, make sure it meets the following r
 If your machine meets the above requirements, you are ready to follow this tutorial. Let’s start with the step-by-step process on how to install Kubernetes on Ubuntu.
 
 ----
+###### Overall, installing Kubernetes on Ubuntu involves steps such as:
+
+      1. Disabling swap;
+      2. Setting up hostnames;
+      3. Setting up the IPV4 bridge on all nodes;
+      4. Installing Kubernetes components on all nodes;
+      5. Installing Docker or a suitable containerization tool;
+      6. Initializing the Kubernetes cluster;
+      7. Configuring Kubectl and Calico;
+      8. Adding worker nodes.
+-----
 ###### Created A Bash Script for Master Node and Worker Nod.
 I have Created a .sh files for installing the Cluster. The one is Master-Node.sh for Master Node. The 2nd One is Worker-Node.sh for worker Nodes. I have attached the .sh Files in the Repository. You can refer this.
 
