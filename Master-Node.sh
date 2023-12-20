@@ -1,4 +1,10 @@
+#!/bin/bash
 
+## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # ##
+#                                                                                                                             #
+#    This Script For Master Node, So Please run this on Master Server                                                         #                                                                                                                                                                                           #
+#                                                                                                                             #
+## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # ##             
 
 #  Disable swap
 sudo swapoff -a
