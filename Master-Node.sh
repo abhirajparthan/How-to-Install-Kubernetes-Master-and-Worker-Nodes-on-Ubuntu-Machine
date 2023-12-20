@@ -56,7 +56,6 @@ sudo systemctl enable kubelet.service
 
 # Initialize the Kubernetes cluster on the master node
 sudo kubeadm config images pull
-sudo kubeadm init --pod-network-cidr=10.10.0.0/16
 
 # To manage the cluster, you should configure kubectl on the master node. Create the .kube directory in your home folder and copy the cluster's admin configuration to your personal .kube directory. 
 mkdir -p $HOME/.kube
